@@ -1,0 +1,11 @@
+*.1CD
+*.1cd
+*.log
+*.cfl
+*.pfl
+*.tmp
+*.TMP
+*.dmp
+*.bak
+.vscode/
+.idea/
