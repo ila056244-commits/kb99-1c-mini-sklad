@@ -18,7 +18,7 @@
 		<Metadata name="Catalog.Товары" id="15ba0c0d-b02f-416c-863d-61d5e5462d38" configVersion="0830560a39afa04eae49a4854544a93400000000"/>
 		<Metadata name="Configuration.Конфигурация" id="faeee7cd-25a2-4604-ad47-223025ced6c5" configVersion="ed9d4a93e5f375458cb3194bd602733d00000000"/>
 		<Metadata name="DefinedType.ФинансовыеДанные" id="bc430482-ce85-4af7-afcc-21f2b9db2dd4" configVersion="e076ab499cde8f44be87299dd9ea636c00000000"/>
-		<Metadata name="Document.Поступление" id="8624cf5b-f120-4880-9efe-18b48d41c4af" configVersion="99f957a3d128864883e14454a87f64f500000000">
+		<Metadata name="Document.Поступление" id="8624cf5b-f120-4880-9efe-18b48d41c4af" configVersion="d28b81bba59fbb44a97ba250f4f8fd6b00000000">
 			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.Товар" id="417ffb4e-5c84-4d13-9f21-dfa0297a5ceb"/>
 			<Metadata name="Document.Поступление.TabularSection.Товары.Attribute.Цена" id="52c6de29-be6e-454b-8d83-3f046e93b8aa"/>
 			<Metadata name="Document.Поступление.TabularSection.Товары" id="5823451b-6f20-4e74-a86b-ef7cbef25376"/>
@@ -30,7 +30,7 @@
 		<Metadata name="Document.Поступление.Form.ФормаДокумента.Form" id="038b77d8-4a31-4ba4-9fd4-58544d4e6a0a.0" configVersion="680dbfd50b28614c85855d6a7ed4905e00000000"/>
 		<Metadata name="Document.Поступление.Form.ФормаСписка" id="f47db45f-3a6b-4988-a9d3-7ebe52e7ce7f" configVersion="03cda9167bd1c04cbf119b6e37d89e0400000000"/>
 		<Metadata name="Document.Поступление.Form.ФормаСписка.Form" id="f47db45f-3a6b-4988-a9d3-7ebe52e7ce7f.0" configVersion="4f7f926606941046b2b14c23a2bce9e500000000"/>
-		<Metadata name="Document.Поступление.ObjectModule" id="8624cf5b-f120-4880-9efe-18b48d41c4af.0" configVersion="a504a5dc64d5214582fa2056fc3d023100000000"/>
+		<Metadata name="Document.Поступление.ObjectModule" id="8624cf5b-f120-4880-9efe-18b48d41c4af.0" configVersion="5c52de46e94a3a44a4a5efd648353bdf00000000"/>
 		<Metadata name="Document.Реализация" id="6fe9dc94-63ad-4a23-b05c-fd247202d261" configVersion="e8fdae44142efa45b6dda285e748673700000000">
 			<Metadata name="Document.Реализация.TabularSection.Товары" id="4aec2402-b3bb-4103-bcf1-fe8aa0f0ce85"/>
 			<Metadata name="Document.Реализация.TabularSection.Товары.Attribute.Количество" id="9c0f2825-e26c-4600-b9c6-fbd9d237a5ad"/>
