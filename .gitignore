@@ -9,3 +9,9 @@
 *.bak
 .vscode/
 .idea/
+*.cf
+*.cfe
+*.epf
+*.erf
+.DS_Store
+Thumbs.db
