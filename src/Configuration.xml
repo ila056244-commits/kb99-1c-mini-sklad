@@ -246,12 +246,15 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>МиниСклад</Subsystem>
+			<CommonModule>РаботаСЦенами</CommonModule>
+			<CommonModule>РаботаСЦенамиТЧ</CommonModule>
 			<DefinedType>ФинансовыеДанные</DefinedType>
 			<Catalog>Товары</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Document>Реализация</Document>
 			<Document>Поступление</Document>
 			<Report>ОборотыПоТоварам</Report>
+			<InformationRegister>ЦеныНоменклатуры</InformationRegister>
 			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 		</ChildObjects>
