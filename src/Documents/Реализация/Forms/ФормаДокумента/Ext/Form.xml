@@ -4,6 +4,10 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
@@ -39,7 +43,6 @@
 					<Button name="ТоварыПодбор" id="38">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.Подбор</CommandName>
-						<Representation>Auto</Representation>
 						<ExtendedTooltip name="ТоварыПодборРасширеннаяПодсказка" id="39"/>
 					</Button>
 				</ChildItems>
@@ -125,10 +128,6 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
-	<Events>
-		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
-		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
-	</Events>
 	<Commands>
 		<Command name="Подбор" id="1">
 			<Title>
@@ -144,7 +143,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Подбор</Action>
-			<Representation>Auto</Representation>
 		</Command>
 	</Commands>
 	<CommandInterface>
