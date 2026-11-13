@@ -34,7 +34,16 @@
 			<DataPath>Объект.Товары</DataPath>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ТоварыКонтекстноеМеню" id="11"/>
-			<AutoCommandBar name="ТоварыКоманднаяПанель" id="12"/>
+			<AutoCommandBar name="ТоварыКоманднаяПанель" id="12">
+				<ChildItems>
+					<Button name="ТоварыПодбор" id="38">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Подбор</CommandName>
+						<Representation>Auto</Representation>
+						<ExtendedTooltip name="ТоварыПодборРасширеннаяПодсказка" id="39"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
 			<ExtendedTooltip name="ТоварыРасширеннаяПодсказка" id="13"/>
 			<SearchStringAddition name="ТоварыСтрокаПоиска" id="14">
 				<AdditionSource>
@@ -80,6 +89,9 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ТоварыКоличествоКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="ТоварыКоличествоРасширеннаяПодсказка" id="31"/>
+					<Events>
+						<Event name="OnChange">ТоварыКоличествоПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="ТоварыЦена" id="32">
 					<DataPath>Объект.Товары.Цена</DataPath>
@@ -87,6 +99,9 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ТоварыЦенаКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="ТоварыЦенаРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="OnChange">ТоварыЦенаПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="ТоварыСумма" id="35">
 					<DataPath>Объект.Товары.Сумма</DataPath>
@@ -110,6 +125,28 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
+	</Events>
+	<Commands>
+		<Command name="Подбор" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подобрать товары из справочника</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Подбор</Action>
+			<Representation>Auto</Representation>
+		</Command>
+	</Commands>
 	<CommandInterface>
 		<NavigationPanel>
 			<Item>
