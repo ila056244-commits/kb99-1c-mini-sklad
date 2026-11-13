@@ -15,19 +15,28 @@
 				<CommandName>Form.Command.Выбрать</CommandName>
 				<ExtendedTooltip name="ФормаВыбратьРасширеннаяПодсказка" id="21"/>
 			</Button>
+			<Button name="ФормаСоздать" id="22">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.StandardCommand.Create</CommandName>
+				<ExtendedTooltip name="ФормаСоздатьРасширеннаяПодсказка" id="23"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
 		<Table name="Список" id="1">
 			<Representation>List</Representation>
 			<DefaultItem>true</DefaultItem>
-			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<MultipleChoice>true</MultipleChoice>
-			<SelectionMode>MultiRow</SelectionMode>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<DataPath>Список</DataPath>
 			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
 			<AutoRefresh>false</AutoRefresh>
 			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
 			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 			<RestoreCurrentRow>false</RestoreCurrentRow>
 			<TopLevelParent xsi:nil="true"/>
@@ -37,12 +46,9 @@
 			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 			<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
 			<AutoCommandBar name="СписокКоманднаяПанель" id="3">
-					<Autofill>false</Autofill>
-				</AutoCommandBar>
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
 			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="4"/>
-			<Events>
-				<Event name="Selection">СписокВыбор</Event>
-			</Events>
 			<SearchStringAddition name="СписокСтрокаПоиска" id="5">
 				<AdditionSource>
 					<Item>Список</Item>
@@ -67,6 +73,9 @@
 				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="12"/>
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="13"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">СписокВыбор</Event>
+			</Events>
 			<ChildItems>
 				<InputField name="Код" id="14">
 					<DataPath>Список.Code</DataPath>
@@ -95,18 +104,18 @@
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>9fd7f5c5-e820-431c-ab9c-5d41ae2b0d39</dcsset:userSettingID>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
 					</dcsset:filter>
 					<dcsset:order>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>ab5c9bb1-858f-4a37-acc8-71ae1d49735d</dcsset:userSettingID>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
 					</dcsset:order>
 					<dcsset:conditionalAppearance>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
-						<dcsset:userSettingID>1c579cc4-588b-4bb1-9e22-b9902fd0c88a</dcsset:userSettingID>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
 					</dcsset:conditionalAppearance>
 					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
-					<dcsset:itemsUserSettingID>969d489f-1374-473c-b62e-67a2cc6e1d9c</dcsset:itemsUserSettingID>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
 				</ListSettings>
 			</Settings>
 		</Attribute>
