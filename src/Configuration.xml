@@ -248,6 +248,7 @@
 			<Subsystem>МиниСклад</Subsystem>
 			<CommonModule>РаботаСЦенами</CommonModule>
 			<CommonModule>РаботаСЦенамиТЧ</CommonModule>
+			<CommonModule>РаботаСПодборомТоваров</CommonModule>
 			<DefinedType>ФинансовыеДанные</DefinedType>
 			<Catalog>Товары</Catalog>
 			<Catalog>Контрагенты</Catalog>
