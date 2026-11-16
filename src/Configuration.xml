@@ -246,6 +246,10 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>МиниСклад</Subsystem>
+			<Role>Администратор</Role>
+			<Role>Менеджер</Role>
+			<Role>Кладовщик</Role>
+			<Role>Гость</Role>
 			<CommonModule>РаботаСЦенами</CommonModule>
 			<CommonModule>РаботаСЦенамиТЧ</CommonModule>
 			<CommonModule>РаботаСПодборомТоваров</CommonModule>

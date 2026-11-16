@@ -65,6 +65,14 @@
 		<Metadata name="Report.ОборотыПоТоварам" id="c954b60e-9c70-45ea-8cf4-d3b527d1d89d" configVersion="7231281715f8814a96d81dcadd8ff76a00000000"/>
 		<Metadata name="Report.ОборотыПоТоварам.Template.ОсновнаяСхемаКомпоновкиДанных" id="1bb00632-6d46-46a7-b021-bab660dbad2c" configVersion="19be8629be76a746b8ea344d5c09981d00000000"/>
 		<Metadata name="Report.ОборотыПоТоварам.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="1bb00632-6d46-46a7-b021-bab660dbad2c.0" configVersion="33b9428a4f2f664ea73488b9e848efb300000000"/>
+		<Metadata name="Role.Администратор" id="0e1d7703-148e-48ce-a8a6-cbf37ca3e90f"/>
+		<Metadata name="Role.Администратор.Rights" id="0e1d7703-148e-48ce-a8a6-cbf37ca3e90f.0"/>
+		<Metadata name="Role.Гость" id="17e6d2b4-89e9-4afd-9c5f-aacb1177258a"/>
+		<Metadata name="Role.Гость.Rights" id="17e6d2b4-89e9-4afd-9c5f-aacb1177258a.0"/>
+		<Metadata name="Role.Кладовщик" id="f1bcee23-0628-4159-9a3e-0b6a9a792902"/>
+		<Metadata name="Role.Кладовщик.Rights" id="f1bcee23-0628-4159-9a3e-0b6a9a792902.0"/>
+		<Metadata name="Role.Менеджер" id="1d9dcb69-db6d-40b9-ba25-1dcbb5aad1e5"/>
+		<Metadata name="Role.Менеджер.Rights" id="1d9dcb69-db6d-40b9-ba25-1dcbb5aad1e5.0"/>
 		<Metadata name="Subsystem.МиниСклад" id="d862c302-3a70-46c7-a1b0-0d9b89cf5c2c" configVersion="afd360c08536514cbfdc2477af89a90600000000"/>
 		<Metadata name="Subsystem.МиниСклад.CommandInterface" id="d862c302-3a70-46c7-a1b0-0d9b89cf5c2c.1" configVersion="a157ec2a1c5af546a4a290afa9e051a700000000"/>
 	</ConfigVersions>
