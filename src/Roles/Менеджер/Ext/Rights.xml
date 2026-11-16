@@ -4,17 +4,6 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Configuration.Конфигурация</name>
-		<right>
-			<name>ThinClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>WebClient</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Товары</name>
 		<right>
 			<name>Read</name>
@@ -30,13 +19,20 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты</name>
+		<name>AccumulationRegister.Продажи</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.Реализация</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -48,11 +44,23 @@
 			<value>true</value>
 		</right>
 		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>InteractiveInsert</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -76,13 +84,31 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.Реализация</name>
+		<name>AccumulationRegister.ОстаткиТоваров</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.ОборотыПоТоварам</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Контрагенты</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -94,7 +120,7 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Posting</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -106,11 +132,14 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractivePosting</name>
+			<name>InputByString</name>
 			<value>true</value>
 		</right>
+	</object>
+	<object>
+		<name>Subsystem.МиниСклад</name>
 		<right>
-			<name>InputByString</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -134,42 +163,41 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.ОстаткиТоваров</name>
+		<name>Configuration.Конфигурация</name>
 		<right>
-			<name>Read</name>
+			<name>ThinClient</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>AccumulationRegister.Продажи</name>
-		<right>
-			<name>Read</name>
+			<name>WebClient</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Report.ОборотыПоТоварам</name>
-		<right>
-			<name>Use</name>
+			<name>MainWindowModeNormal</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>View</name>
+			<name>MainWindowModeWorkplace</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Subsystem.МиниСклад</name>
 		<right>
-			<name>View</name>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SaveUserData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Output</name>
 			<value>true</value>
 		</right>
 	</object>
