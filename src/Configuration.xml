@@ -253,6 +253,8 @@
 			<CommonModule>РаботаСЦенами</CommonModule>
 			<CommonModule>РаботаСЦенамиТЧ</CommonModule>
 			<CommonModule>РаботаСПодборомТоваров</CommonModule>
+			<CommonModule>РегламентныеЗаданияМиниСклад</CommonModule>
+			<ScheduledJob>ПроведениеНепроведённыхДокументов</ScheduledJob>
 			<DefinedType>ФинансовыеДанные</DefinedType>
 			<Catalog>Товары</Catalog>
 			<Catalog>Контрагенты</Catalog>
